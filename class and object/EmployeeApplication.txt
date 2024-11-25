@@ -1,0 +1,34 @@
+class Employee
+{
+	private int id;
+	private string name;
+	public void setid(int id)
+	{
+		this.id=id;
+	}
+	public int getid()
+	{
+		return id;
+	}
+	public void setname(String name)
+	{
+		this.name=name;
+	}
+	public string getName()
+	{
+		return name;
+	}
+	
+}
+public class EmployeeAppication
+{
+	public static void main(String x[])
+	{
+		Employee e =new Employee();
+		e.setid(1);
+		e.setname("ABC");
+		int empid=e.getid();
+		string empname=e.getName();
+		System.out.println(empid+"\t"+empid);
+	}
+}
